@@ -3,7 +3,8 @@
     tower_credential:
       name: Team Name
 #      description: Team Description
-#      organization: default
+      organization: default
+      kind: tower
 #      credential_type: Machine
 #      state: present
 #      username: admin
