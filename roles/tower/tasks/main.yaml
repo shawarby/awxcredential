@@ -1,7 +1,7 @@
 ---
   - name: Create an Inventory
-  tower_inventory:
-    name: "New Inventory"
-    description: "test inv"
-    organization: "New Org"
-    state: present
+    tower_inventory:
+      name: "New Inventory"
+      description: "test inv"
+      organization: "New Org"
+      state: present
