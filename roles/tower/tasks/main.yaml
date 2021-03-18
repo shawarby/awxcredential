@@ -1,6 +1,6 @@
 ---
   - name: Create an Inventory
-    awx..awx.inventory:
+    awx.awx.inventory:
       name: "New Inventory"
       description: "test inv"
       organization: "New Org"
