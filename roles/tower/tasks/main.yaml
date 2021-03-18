@@ -3,7 +3,7 @@
     tower_credential:
       name: Team Name
       description: Team Description
-      organization: test-org
+      organization: default
       kind: ssh
       state: present
 #      tower_config_file: "~/.tower_cli.cfg"
