@@ -6,4 +6,5 @@
     organization: test-org
     kind: ssh
     state: present
+    tower_config_file: "~/tower_cli.cfg"
 
