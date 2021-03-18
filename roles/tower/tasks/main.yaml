@@ -1,6 +1,6 @@
 ---
   - name: Create an Inventory
-    tower_inventory:
+    awx..awx.inventory:
       name: "New Inventory"
       description: "test inv"
       organization: "New Org"
