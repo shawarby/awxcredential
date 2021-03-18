@@ -5,9 +5,9 @@
 #      description: Team Description
       organization: Default
 #      kind: scm
-      credential_type: Machine
+#      credential_type: Machine
 #      state: present
-#      username: admin
-#      password: redhat
+      username: admin
+      password: redhat
 
 #      tower_config_file: "~/.tower_cli.cfg"
