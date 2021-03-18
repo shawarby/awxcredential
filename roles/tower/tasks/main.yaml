@@ -1,7 +1,9 @@
 ---
-  - name: Create an Inventory
-    tower_inventory:
-      name: "New Inventory"
-      description: "test inv"
-      organization: "New Org"
+  - name: Add tower credential
+    tower_credential:
+      name: Team Name
+      description: Team Description
+      organization: test-org
+      kind: ssh
       state: present
+      tower_config_file: "~/tower_cli.cfg"
