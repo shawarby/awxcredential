@@ -1,10 +1,9 @@
 ---
-  tasks:
-    - name: Add tower machine credential
-      tower_credential:
-        name: Team Name
-        description: Team Description
-        organization: test-org
-        credential_type: Machine
-        state: present
-        tower_config_file: "~/tower_cli.cfg"
+  - name: Add tower machine credential
+    tower_credential:
+      name: "test"
+      description: "test1"
+      organization: "Default"
+      credential_type: "Machine"
+      state: present
+      tower_config_file: "~/tower_cli.cfg"
