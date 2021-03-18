@@ -1,9 +1,7 @@
 ---
-  - name: Add tower machine credential
-    tower_credential:
-      name: "test"
-      description: "test1"
-      organization: "Default"
-      credential_type: "Machine"
-      state: present
-      tower_config_file: "~/tower_cli.cfg"
+  - name: Create an Inventory
+  tower_inventory:
+    name: "New Inventory"
+    description: "test inv"
+    organization: "New Org"
+    state: present
