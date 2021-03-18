@@ -4,7 +4,7 @@
       name: Team Name
 #      description: Team Description
       organization: Default
-#      kind: scm
+      kind: scm
 #      credential_type: Machine
 #      state: present
       username: admin
