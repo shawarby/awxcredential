@@ -1,0 +1,2 @@
+security_policy:
+  name: "{{ src_hostname }}_{{ dest_hostname }}"
