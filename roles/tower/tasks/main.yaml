@@ -1,7 +1,7 @@
 ---
   - name: Add tower credential
     tower_credential:
-      name: Team Name
+      name: {{ server_name }}
 #      description: Team Description
       organization: Default
       kind: ssh
