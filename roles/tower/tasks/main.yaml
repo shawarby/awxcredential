@@ -8,7 +8,7 @@
 #      credential_type: Machine
 #      state: present
       username: admin12
-      password: redhat1
+      password: {{ ansible_password }}
 #      tower_username: admin
 #      tower_password: redhat
 #      tower_host: https://192.168.0.100
