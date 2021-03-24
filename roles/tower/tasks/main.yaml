@@ -1,14 +1,14 @@
 ---
   - name: Add tower credential
     tower_credential:
-      name: {{ server_name }}
+      name: testnew
 #      description: Team Description
       organization: Default
       kind: ssh
 #      credential_type: Machine
 #      state: present
       username: admin12
-      password: {{ ansible_password }}
+      password: testos
 #      tower_username: admin
 #      tower_password: redhat
 #      tower_host: https://192.168.0.100
