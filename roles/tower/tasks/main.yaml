@@ -1,7 +1,7 @@
 ---
   - name: Add tower credential
     tower_credential:
-      name: testnew
+      name: testneww
 #      description: Team Description
       organization: Default
       kind: ssh
