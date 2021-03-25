@@ -1,15 +1,8 @@
 ---
   - name: Add tower credential
     tower_credential:
-      name: testneww
-#      description: Team Description
-      organization: Default
+      name: "{{ credential_name }}"
+      organization: "{{ organization_name }}"
       kind: ssh
-#      credential_type: Machine
-#      state: present
-      username: admin12
-      password: testos
-#      tower_username: admin
-#      tower_password: redhat
-#      tower_host: https://192.168.0.100
-#      tower_config_file: "~/.tower_cli.cfg"
+      username: "{{ username }}"
+      password: "{{ password }}"
